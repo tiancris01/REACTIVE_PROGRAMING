@@ -11,6 +11,8 @@ class SplashScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Icon(Icons.catching_pokemon, size: 100),
+              SizedBox(height: 20),
               Text('loading...'),
             ],
           ),
